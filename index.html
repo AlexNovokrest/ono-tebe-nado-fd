@@ -12,12 +12,12 @@
   <body>
     <header class="header">
       <nav>
-        <ul class="header-menu">
-          <li class="header-home-page">
-            <a href="" class="header-home-page">главная</a>
+        <ul class="header__links-list">
+          <li class="header__links-list-item_no-bullit">
+            <a href="" class="header__link_active">главная</a>
           </li>
-          <li><a href="" class="header-lots">посмотреть лоты</a></li>
-          <li><a href="" class="header-about">об аукционе</a></li>
+          <li><a href="" class="header__link">посмотреть лоты</a></li>
+          <li><a href="" class="header__link">об аукционе</a></li>
         </ul>
       </nav>
 
@@ -26,12 +26,14 @@
       </a>
 
       <address class="header-adress">
-        <a href="tel:+70000000">+9 999 555 5555</a>
-        <a href="mailto:mail@example.com">info@sobaka.ge</a>
-        <p>
+        <div class="adress">
+          <a href="tel:+70000000">+9 999 555 5555</a>
+          <a href="mailto:mail@example.com">info@sobaka.ge</a>
+          <p>
           наб. Принсенграхт 263-<br />
           265, Амстердам
-        </p>
+          </p>
+        </div>
       </address>
     </header>
 
@@ -44,9 +46,9 @@
           <span class="aligned-text-right">НАДО</span>
         </h1>
         <div class="cover__description">
-          <h3 class="cover__description-text">
+          <h2 class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </h3>
+          </h2>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
@@ -119,10 +121,10 @@
             />
           </div>
 
-          <div class="about__second-column">
+          <div class="about__text-column">
             <h2 class="about__title">Об аукционе</h2>
             <div class="about_text">
-              <p class="about_text__first_p">
+              <p class="about_text__items">
                 Здесь вы не встретите очередное пафосное собрание невероятно
                 дорогого антиквариата. Наши лоты вообще не должны были попасть
                 ни на один аукцион. Потому что кому нужен дневник
@@ -146,18 +148,20 @@
 
     <footer class="footer">
       <address class="footer-adress">
+        <div class="adress">
         <a href="tel:+70000000">+9 999 555 5555<br /></a>
         <a href="mailto:mail@example.com">info@sobaka.ge</a>
         <p>
           наб. Принсенграхт 263-265,<br />
           Амстердам
         </p>
+        </div>
       </address>
 
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="" class="footer__menu-link_active">главная</a>
+            <a href="" class="footer__menu-link_active footer__menu-link">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a href="" class="footer__menu-link">посмотреть лоты</a>
