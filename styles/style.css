@@ -29,7 +29,7 @@
 .header__link_active {
   text-decoration: none;
 }
-.header-adress {
+.block__element-right {
   justify-self: end;
 }
 .adress {
@@ -234,7 +234,7 @@
   margin-bottom: 82px;
   padding-top: 4px;
 }
-.footer-adress {
+.block__element-left {
   grid-column: 1 / 2;
   justify-self: center;
   padding-right: 30px;
